@@ -1,6 +1,7 @@
 body{
     width: 1440px;
     height: 1050px;
+    background: #000000;
 
 }
 
@@ -27,11 +28,11 @@ textarea{
     font-style: normal;
     font-weight: 400;
     font-size: 32px;
-    color: #0A3871;
+    color: #228c12;
 }
 
 textarea::placeholder{
-    color: #0A3871;
+    color: #228c12;
 }
 
 p{
@@ -51,7 +52,7 @@ p{
     line-height: 150%;
 
 
-    color: #495057;
+    color: #ffffff;
 
 
 }
@@ -68,9 +69,9 @@ p{
 
     /* Dark blue/dark-blue-300 */
 
-    background: #0A3871;
+    background: #228c12;
     border-radius: 24px;
-    border: #0A3871;
+    border: #228c12;
     cursor: pointer;
 
     /* Fuente */
@@ -86,7 +87,7 @@ p{
 }
 
 .encrypt:hover{
-    background:#1e57a7;
+    background:#4b8e41;
     
 }
 
@@ -110,7 +111,7 @@ p{
     background: #D8DFE8;
     /* Dark blue/dark-blue-300 */
 
-    border: 1px solid #0A3871;
+    border: 1px solid #228c12;
     border-radius: 24px;
     cursor: pointer;
 
@@ -127,8 +128,9 @@ p{
 }
 
 .decrypt:hover{
-    background: #495057;
-    border: #495057;
+    background: rgb(92, 88, 88);
+    border: rgb(92, 88, 88);
+    color: #5f8f58;
 
 }
 
@@ -143,7 +145,7 @@ p{
     margin-top: 40px;
     /* White */
 
-    background: lightgray;
+    background: rgb(92, 88, 88);
     /* shadow */
 
     box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
@@ -178,7 +180,7 @@ p{
 
     /* Gray/gray-500 */
 
-    color: #343A40;
+    color: #5f8f58;
 
 }
 
@@ -200,5 +202,5 @@ p{
 
     /* Gray/gray-400 */
 
-    color: #495057;
+    color: #ffffff;
 }
