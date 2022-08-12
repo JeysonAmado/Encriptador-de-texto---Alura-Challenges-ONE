@@ -12,18 +12,49 @@ body{
 
 textarea{
     position: absolute;
-    width: 680;
-    height: 700px;
+    width: 680px;
+    height: 680px;
     left: 240px;
     top: 168px;
 
     resize: none;
+    background: transparent;
+    border: 0;
+    outline: none;
+
+
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 32px;
+    color: #0A3871;
 }
 
+textarea::placeholder{
+    color: #0A3871;
+}
+
+p{
+
+
+    position: absolute;
+    top: 851px;
+    left: 240px;
+
+   
+    height: 18px;
+
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+
+
+    color: #495057;
+
+
+}
 .encrypt{
 
         /* Auto layout */
@@ -39,16 +70,24 @@ textarea{
 
     background: #0A3871;
     border-radius: 24px;
+    border: #0A3871;
     cursor: pointer;
 
     /* Fuente */
     font-family: 'Poppins', sans-serif;
     font-style: normal;
-    font-weight: 1000;
+    font-weight: 500;
     font-size: 16px;
     line-height: 19px;
     text-align: center;
+    color: white;
 
+    transition: 1s;
+}
+
+.encrypt:hover{
+    background:#1e57a7;
+    
 }
 
 .decrypt{
@@ -82,6 +121,14 @@ textarea{
      font-size: 16px;
      line-height: 19px;
      text-align: center;
+     
+    transition: 1s all;
+
+}
+
+.decrypt:hover{
+    background: #495057;
+    border: #495057;
 
 }
 
