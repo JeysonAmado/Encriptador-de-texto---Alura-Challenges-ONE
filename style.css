@@ -1,7 +1,8 @@
 body{
-    width: 1440px;
-    height: 1050px;
+   
     background: #000000;
+    
+    
 
 }
 
@@ -14,14 +15,14 @@ body{
 textarea{
     position: absolute;
     width: 680px;
-    height: 680px;
+    height: 410px;
     left: 240px;
     top: 168px;
 
     resize: none;
     background: transparent;
     border: 0;
-    outline: none;
+    outline: none; 
 
 
     font-family: 'Poppins', sans-serif;
@@ -39,7 +40,7 @@ p{
 
 
     position: absolute;
-    top: 851px;
+    top: 590px;
     left: 240px;
 
    
@@ -62,7 +63,7 @@ p{
 
     position: absolute;
     left: 240px;
-    top: 885px;
+    top: 612px;
     margin-bottom: 72px;
     width: 328px;
     height: 67px;
@@ -98,7 +99,7 @@ p{
     /* Auto layout */
     position: absolute;
     left: 592;
-    top: 885px;
+    top: 612px;
 
     width: 328px;
     height: 67px;
@@ -137,12 +138,12 @@ p{
 .empty{
     position: absolute;
     width: 400px;
-    height: 944px;
+    height: 670px;
     left: 1000px;
     top: 40px;
     margin-bottom: 40px;
     margin-right: 40px;
-    margin-top: 40px;
+    
     /* White */
 
     background: rgb(92, 88, 88);
@@ -156,7 +157,7 @@ p{
 .empty img{
     position: absolute;
     padding-left: 32px;
-    padding-top: 243px;
+    padding-top: 150px;
 
 
 }
@@ -164,7 +165,7 @@ p{
 .empty h1{
     width: 336px;
     height: 58px;
-    margin-top: 579px;
+    margin-top: 500px;
     margin-left: 32px;
     margin-right: auto;
 
@@ -209,12 +210,12 @@ p{
     display: none;
     position: absolute;
     width: 400px;
-    height: 944px;
+    height: 670px;
     left: 1000px;
     top: 40px;
     margin-bottom: 40px;
     margin-right: 40px;
-    margin-top: 40px;
+    
     /* White */
 
     background: rgb(92, 88, 88);
@@ -230,7 +231,7 @@ p{
     margin-top: 32px;
     margin-left: 32px;
     width: 336px;
-    height: 765px;
+    height: 530px;
     left: 1032px;
     top: 72px;
 
