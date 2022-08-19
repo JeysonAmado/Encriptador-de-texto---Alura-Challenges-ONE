@@ -1,10 +1,12 @@
 body{
    
     background: #000000;
-    
+    font-family: 'Poppins', sans-serif;
     
 
 }
+
+
 
 #logo{
     position: absolute;

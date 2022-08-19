@@ -59,6 +59,7 @@ function noText(){
 }
 
 function copiar(){
+
     var codigoACopiar = document.querySelector('.result h2');
     var seleccion = document.createRange();
     seleccion.selectNodeContents(codigoACopiar);
@@ -67,7 +68,13 @@ function copiar(){
     var res = document.execCommand('copy');
     window.getSelection().removeRange(seleccion);
 
-    
+    Swal.fire({
+        title: "Texto Copiado",
+        background: 'lightgray',
+        confirmButtonColor: "#228c12"
+        
+    })
+
 }
 
 function encriptar(){
