@@ -9,34 +9,11 @@ const decrypt = document.querySelector('.decrypt')
 const copy=document.querySelector('.copy')
 const entrada = document.querySelector("textarea")
 
+//Agrega el mensaje encriptado y lo visualiza en el panel derecho
 
-function createDivResult(entradaTexto){
-    const result=document.createElement('div')
-    result.classList.add('result')
-    
-
-    const texto=document.createElement('h2')
-    texto.textContent=entradaTexto
-    
-
-    const boton=document.createElement('input')
-    boton.classList.add('copy')
-    boton.type='submit'
-    boton.value="Copiar"
-    
-
-    result.appendChild(texto)
-    result.appendChild(boton)
-    
-
-    const cuerpo=document.querySelector('body')
-    cuerpo.appendChild(result)
-
-}
-
-function agregarTexto(textoIngresado){
+function agregarTexto(msgEncriptado){
     let texto=document.querySelector('.result h2')
-    texto.textContent=textoIngresado
+    texto.textContent=msgEncriptado
 
     const result=document.querySelector('.result')
     result.style.display='block'
@@ -46,6 +23,8 @@ function agregarTexto(textoIngresado){
     const empty=document.querySelector('.empty')
     empty.style.display='none'
 }
+
+//Si no hay ningún mensaje escrito indica en el panel derecho que no hay texto por encriptar o desencriptar
 
 function noText(){
     
@@ -57,6 +36,8 @@ function noText(){
     empty.style.display='block'
 
 }
+
+//Copia el mensaje encriptado o desenciptado al portapapeles y muestra una alerta del proceso realizado
 
 function copiar(){
 
@@ -76,6 +57,8 @@ function copiar(){
     })
 
 }
+
+//Funcion encargada de encriptar el mensaje
 
 function encriptar(){
     let encriptado=""
@@ -99,6 +82,8 @@ function encriptar(){
     }
     
 }
+
+//Funcion encargada de desencriptar el mensaje
 
 function desencriptar(){
     let encriptado=""
@@ -127,6 +112,3 @@ function desencriptar(){
 encrypt.onclick=encriptar
 decrypt.onclick=desencriptar
 copy.onclick=copiar
-/* encrypt.addEventListener('click', () =>{
-    console.log('Hizo Click')
-}) */
